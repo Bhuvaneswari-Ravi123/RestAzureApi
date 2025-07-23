@@ -6,7 +6,8 @@ import org.json.JSONObject;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 public class APITestMethods {
-    String baseUri = "https://reqres.in";
+    String baseUri = "https://r"
+    		+ "eqres.in";
     @Test
     public void testGetRequest() {
         RestAssured.baseURI = baseUri;
